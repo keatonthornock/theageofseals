@@ -6,7 +6,7 @@ A polished static landing page for **The Age of Seals**, an epic fantasy trilogy
 
 - `index.html` — semantic landing page markup and content sections.
 - `assets/css/styles.css` — responsive styling, theme variables, parchment textures, torn-edge dividers, and placeholder art styles.
-- `assets/js/main.js` — mobile navigation, lore accordion, and newsletter form interaction.
+- `assets/js/main.js` — mobile navigation, FAQ accordion, and newsletter form interaction.
 - `assets/img/hero-placeholder.svg` — lightweight abstract medieval-fantasy hero placeholder.
 
 ## Local Preview
@@ -46,13 +46,13 @@ Large cinematic images work best when they are at least 1800px wide and have dar
 The book covers are CSS gradient placeholder blocks inside `.book-cover` elements. When final cover images are available, either:
 
 - Replace each `.book-cover` block in `index.html` with an `<img>` element, or
-- Add background images to `.cover-stone`, `.cover-crowns`, and `.cover-sword` in `assets/css/styles.css`.
+- Add background images to `.cover-one`, `.cover-two`, and `.cover-three` in `assets/css/styles.css`.
 
 Example:
 
 ```css
-.cover-stone {
-  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.65)), url('../img/hidden-stone-cover.jpg') center / cover no-repeat;
+.cover-one {
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.65)), url('../img/book-one-cover.jpg') center / cover no-repeat;
 }
 ```
 
@@ -62,7 +62,7 @@ The character cards use CSS silhouette placeholders. Add portrait files to `asse
 
 ## Customizing Text
 
-All visible copy is in `index.html`. Search for section IDs such as `#books`, `#world`, `#characters`, and `#lore` to update headings, descriptions, calls to action, and footer links.
+All visible copy is in `index.html`. Search for section IDs such as `#books`, `#world`, `#characters`, and `#faq` to update headings, descriptions, calls to action, and footer links.
 
 ## Deployment on GitHub Pages
 
