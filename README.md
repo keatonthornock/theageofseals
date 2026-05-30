@@ -7,7 +7,7 @@ A polished static landing page for **The Age of Seals**, an epic fantasy trilogy
 - `index.html` — semantic landing page markup and content sections.
 - `assets/css/styles.css` — responsive styling, theme variables, parchment textures, torn-edge dividers, and placeholder art styles.
 - `assets/js/main.js` — mobile navigation, FAQ accordion, and newsletter form interaction.
-- `assets/img/hero-placeholder.svg` — lightweight abstract medieval-fantasy hero placeholder.
+- `assets/img/hero-placeholder.png` — abstract medieval-fantasy hero placeholder PNG.
 
 ## Local Preview
 
@@ -26,7 +26,7 @@ Then visit `http://127.0.0.1:4173/`.
 The hero background currently points to:
 
 ```css
-assets/img/hero-placeholder.svg
+assets/img/hero-placeholder.png
 ```
 
 To replace it with final concept art:
